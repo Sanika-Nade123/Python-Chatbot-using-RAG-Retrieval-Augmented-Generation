@@ -1,0 +1,11 @@
+SciPy builds on NumPy for scientific and technical computing. It provides modules for optimization, linear algebra, integration, and interpolation.
+
+Optimization functions solve minimization and root finding problems. Methods include minimize(), root(), and curve_fit() for various optimization tasks.
+
+Signal processing tools handle digital signals, including filtering, convolution, and Fourier transforms. Window functions help in spectral analysis.
+
+Statistical functions provide distributions, statistical tests, and descriptive statistics. Integration with other scientific libraries enhances capabilities.
+
+Image processing capabilities include filters, transformations, and feature detection. The ndimage submodule provides multi-dimensional image processing.
+
+Special functions include mathematical physics functions, information theory, and other specialized mathematical operations.

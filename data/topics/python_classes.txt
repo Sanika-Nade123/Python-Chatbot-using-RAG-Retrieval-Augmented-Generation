@@ -1,0 +1,11 @@
+Classes are blueprints for creating objects in Python. They encapsulate data and behavior using attributes and methods.
+
+The __init__ method is the constructor, called when creating new instances. Self parameter refers to the instance being created.
+
+Class attributes are shared among all instances, while instance attributes are unique to each object. Methods define the behavior of objects.
+
+Inheritance allows creating new classes based on existing ones. Python supports multiple inheritance, allowing a class to inherit from multiple parent classes.
+
+Special methods (magic methods) like __str__, __len__, __eq__ customize object behavior. They're called automatically in specific situations.
+
+Properties allow controlling access to attributes using getter and setter methods, enabling data validation and encapsulation.

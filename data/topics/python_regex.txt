@@ -1,0 +1,11 @@
+Regular expressions (regex) in Python use the re module. They provide powerful pattern matching and text manipulation capabilities.
+
+Basic patterns include literal characters, character classes ([]), quantifiers (*, +, ?), and anchors (^, $). The raw string notation (r'') prevents escape character issues.
+
+Common methods include search(), match(), findall(), and sub(). Search finds patterns anywhere, while match looks only at the start of the string.
+
+Groups in regex capture parts of matches using parentheses. Named groups (?P<name>) make references more readable and maintainable.
+
+Compilation of regex patterns using re.compile() improves performance when the same pattern is used multiple times.
+
+Special sequences like \d (digits), \w (word characters), and \s (whitespace) simplify common pattern matching tasks.

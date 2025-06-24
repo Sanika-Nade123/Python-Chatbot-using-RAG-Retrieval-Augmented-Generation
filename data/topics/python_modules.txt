@@ -1,0 +1,11 @@
+Modules organize Python code into reusable files. The import statement loads modules, making their contents available.
+
+Module search path includes current directory, PYTHONPATH, and installation-dependent defaults. The sys.path list shows the search path.
+
+Package creation uses __init__.py files. Packages organize related modules into directories with hierarchical structure.
+
+Module attributes include __name__, __file__, and __doc__. The if __name__ == '__main__': idiom identifies direct script execution.
+
+Import variations include 'from module import name' and 'import module as alias'. These control namespace pollution and name conflicts.
+
+Reload functionality using importlib.reload() updates module contents during development and debugging.

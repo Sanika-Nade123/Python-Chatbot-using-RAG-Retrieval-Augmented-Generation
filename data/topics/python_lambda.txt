@@ -1,0 +1,11 @@
+Lambda functions are anonymous, single-expression functions. They're created using the lambda keyword and can take any number of arguments.
+
+Common uses include sorting with custom keys, mapping operations, and creating simple function objects on the fly.
+
+Lambda functions work well with higher-order functions like map(), filter(), and reduce(). They provide concise ways to transform data.
+
+Function composition using lambda creates chains of operations. This enables functional programming patterns in Python.
+
+Lambda limitations include single expression restriction and lack of documentation strings. Regular functions are preferred for complex operations.
+
+Lambda functions are particularly useful in GUI programming for event handlers and callback functions.

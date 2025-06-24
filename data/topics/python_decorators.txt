@@ -1,0 +1,11 @@
+Decorators are functions that modify other functions or classes. They use the @ syntax for clean, readable function transformation.
+
+Function decorators can add functionality like logging, timing, or access control. They can accept arguments for more flexible behavior.
+
+Class decorators modify class definitions. They can add methods, attributes, or modify class behavior.
+
+Property decorators (@property) create getter and setter methods. This enables controlled access to class attributes.
+
+Multiple decorators can be stacked, applying transformations in order from bottom to top.
+
+Decorator factories are functions that return decorators, allowing parameterization of decorator behavior.

@@ -1,0 +1,11 @@
+NumPy is fundamental for scientific computing in Python. Its main object is the multi-dimensional array, which enables efficient operations on large datasets.
+
+Array operations in NumPy are vectorized, meaning they operate on entire arrays without explicit loops, making computations faster.
+
+NumPy provides tools for linear algebra, Fourier transforms, and random number generation. Its broadcasting rules allow operations between arrays of different shapes.
+
+Array indexing and slicing in NumPy is powerful, supporting boolean indexing, integer indexing, and fancy indexing for complex selections.
+
+Mathematical functions in NumPy include trigonometric, statistical, and algebraic operations. These are optimized for performance on large datasets.
+
+NumPy arrays can be reshaped, stacked, split, and concatenated. They form the foundation for data analysis libraries like Pandas and scikit-learn.

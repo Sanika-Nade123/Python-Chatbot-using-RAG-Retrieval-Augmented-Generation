@@ -1,0 +1,11 @@
+Machine learning in Python primarily uses scikit-learn library. It provides tools for classification, regression, clustering, and dimensionality reduction.
+
+Data preprocessing includes scaling, normalization, and handling missing values. The train_test_split function separates data for training and testing.
+
+Supervised learning algorithms include Linear Regression, Decision Trees, Random Forests, and Support Vector Machines. Model evaluation uses metrics like accuracy and precision.
+
+Unsupervised learning encompasses clustering algorithms like K-means and hierarchical clustering. Dimensionality reduction includes PCA and t-SNE.
+
+Cross-validation techniques assess model performance. GridSearchCV and RandomizedSearchCV help in hyperparameter tuning.
+
+Model persistence allows saving trained models using pickle or joblib, enabling deployment in production environments.
