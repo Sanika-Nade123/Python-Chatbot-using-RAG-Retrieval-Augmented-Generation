@@ -1,7 +1,0 @@
-NumPy is a fundamental package for scientific computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with mathematical functions to operate on these arrays.
-
-Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of NumPy. It offers data structures like DataFrame and Series.
-
-Matplotlib is a plotting library for Python. It provides an object-oriented API for embedding plots into applications and creates publication-quality figures in various formats.
-
-Scikit-learn is a free software machine learning library for Python. It features various classification, regression and clustering algorithms and is designed to interoperate with NumPy and SciPy.

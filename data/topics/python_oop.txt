@@ -1,7 +1,0 @@
-Object-Oriented Programming in Python centers around classes and objects. A class is a blueprint for objects.
-
-Classes can have attributes (variables) and methods (functions). The __init__ method is the constructor.
-
-Inheritance allows a class to inherit attributes and methods from another class. Python supports multiple inheritance.
-
-Encapsulation in Python uses naming conventions: _single and __double underscores for private variables.

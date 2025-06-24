@@ -1,7 +1,0 @@
-Python basics include variables, data types, operators, and control flow statements. Variables are containers for storing data values.
-
-Python variables don't need explicit declaration. They are created when you first assign a value.
-
-Python data types include: integers (int), floating-point numbers (float), strings (str), lists, tuples, dictionaries, and sets.
-
-Control flow statements in Python include if-else conditions, for loops, while loops, and switch-case (using match in Python 3.10+).
