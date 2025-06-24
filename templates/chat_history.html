@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="history-container">
+    <h2>Chat History</h2>
+    {% if history %}
+        {% for chat in history %}
+            <div class="chat-entry">
+                <div class="timestamp">{{ chat.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</div>
+                <div class="message user-message">
+                    <strong>You:</strong> {{ chat.message }}
+                </div>
+                <div class="message bot-message">
+                    <strong>PySensei:</strong> {{ chat.response }}
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p class="no-history">No chat history available.</p>
+    {% endif %}
+</div>
+{% endblock %}

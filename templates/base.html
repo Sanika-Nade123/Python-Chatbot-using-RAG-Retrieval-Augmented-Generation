@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PySensei - Your AI Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="PySensei Logo" class="logo">
+            <span class="logo-text">PySensei</span>
+        </div>
+        <div class="nav-links">
+            {% if session.get('user_id') and request.endpoint not in ['login', 'register'] %}
+                {% if not session.get('is_admin') %}
+                    <a href="{{ url_for('chat') }}">Chat</a>
+                    <a href="{{ url_for('chat_history') }}">History</a>
+                {% endif %}
+                <a href="{{ url_for('about') }}">About</a>
+                <a href="{{ url_for('logout') }}">Logout</a>
+            {% else %}
+                <a href="{{ url_for('about') }}">About</a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="main-container">
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

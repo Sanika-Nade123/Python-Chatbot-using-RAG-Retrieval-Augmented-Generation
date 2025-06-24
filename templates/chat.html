@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="chat-container">
+    <h2>Chat with PySensei</h2>
+    <div class="chat-messages" id="chat-messages">
+        <!-- Chat messages will appear here -->
+    </div>
+    <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Type your message..." class="message-input">
+        <button onclick="sendMessage()" class="send-button">Send</button>
+    </div>
+    <div class="download-section">
+        <a href="{{ url_for('download_my_chat') }}" class="btn btn-secondary">Download My Chat History</a>
+    </div>
+</div>
+
+<script>
+function sendMessage() {
+    const messageInput = document.getElementById('message-input');
+    const message = messageInput.value.trim();
+    if (!message) return;
+
+    const chatMessages = document.getElementById('chat-messages');
+    
+    // Add user message
+    chatMessages.innerHTML += `<div class="message user-message">${message}</div>`;
+    messageInput.value = '';
+
+    // Send to server
+    fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ message: message })
+    })
+    .then(response => response.json())
+    .then(data => {
+        // Add bot response
+        chatMessages.innerHTML += `<div class="message bot-message">${data.response}</div>`;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        chatMessages.innerHTML += `<div class="message error-message">Sorry, there was an error processing your message.</div>`;
+    });
+}
+
+// Add Enter key support
+document.getElementById('message-input').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
+</script>
+{% endblock %}

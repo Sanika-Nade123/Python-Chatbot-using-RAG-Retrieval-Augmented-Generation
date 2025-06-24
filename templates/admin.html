@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="admin-container">
+    <h2>Admin Dashboard</h2>
+    <div class="admin-actions">
+        <a href="{{ url_for('download_users_report') }}" class="btn btn-primary">Download Users Report</a>
+    </div>
+    <table class="user-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>User ID</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in users %}
+            <tr>
+                <td>{{ user.name }}</td>
+                <td>{{ user.user_id }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{ user.phone }}</td>
+                <td>
+                    <a href="{{ url_for('download_user_chat', user_id=user.id) }}" class="btn btn-info">Download Chat History</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
