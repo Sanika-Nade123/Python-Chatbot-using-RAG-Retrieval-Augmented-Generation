@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="about-container">
+    <h2>About PySensei</h2>
+    
+    <div class="about-section">
+        <h3>Your AI Python Learning Assistant</h3>
+        <p>PySensei is an advanced AI-powered chatbot designed to help you learn Python programming. Using state-of-the-art Retrieval Augmented Generation (RAG) technology, PySensei provides accurate and context-aware responses to your Python-related questions.</p>
+    </div>
+
+    <div class="about-section">
+        <h3>How RAG Works</h3>
+        <p>RAG (Retrieval Augmented Generation) combines the power of knowledge retrieval with natural language generation:</p>
+        <ul>
+            <li>When you ask a question, the system searches through its curated Python knowledge base</li>
+            <li>Using advanced embedding technology, it finds the most relevant information</li>
+            <li>The AI then generates a precise, contextual response based on the retrieved information</li>
+            <li>This ensures accurate, up-to-date answers to your Python programming queries</li>
+        </ul>
+    </div>
+
+    <div class="developers-section">
+        <h3>Developers</h3>
+        <p>Created by:</p>
+        <div class="developer-links">
+            <a href="https://www.linkedin.com/in/ratanverma23?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Ratan Verma</a>
+            <a href="https://www.linkedin.com/in/sanika-nade-520246357?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Sanika Nade</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .about-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .about-section {
+        margin-bottom: 30px;
+    }
+
+    .about-section h3 {
+        color: #2196F3;
+        margin-bottom: 15px;
+    }
+
+    .about-section ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+
+    .about-section li {
+        margin: 10px 0;
+    }
+
+    .developers-section {
+        margin-top: 40px;
+        text-align: center;
+        padding: 20px;
+        background: #f5f5f5;
+        border-radius: 8px;
+    }
+
+    .developer-links {
+        margin-top: 15px;
+    }
+
+    .developer-links a {
+        display: inline-block;
+        margin: 0 15px;
+        color: #2196F3;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+
+    .developer-links a:hover {
+        color: #1976D2;
+        text-decoration: underline;
+    }
+</style>
+{% endblock %}
