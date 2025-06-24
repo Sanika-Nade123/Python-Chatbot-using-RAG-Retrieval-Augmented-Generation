@@ -1,0 +1,11 @@
+Python has several built-in data types. Numbers include integers (int), floating-point numbers (float), and complex numbers. Each type handles mathematical operations differently.
+
+Strings (str) are immutable sequences of characters. They can be created with single or double quotes and support various operations like slicing, concatenation, and formatting.
+
+Lists are ordered, mutable sequences that can contain elements of different types. They support operations like append, extend, insert, and remove. List comprehensions provide elegant ways to create and manipulate lists.
+
+Tuples are immutable sequences, similar to lists but unchangeable after creation. They're often used for grouping related data and can be used as dictionary keys.
+
+Dictionaries are key-value pairs, providing fast lookups and flexible data storage. Keys must be immutable, and values can be of any type.
+
+Sets are unordered collections of unique elements, supporting mathematical operations like union, intersection, and difference.

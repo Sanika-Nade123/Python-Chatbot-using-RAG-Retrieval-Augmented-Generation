@@ -1,0 +1,11 @@
+User input in Python is handled by the input() function. It returns user input as a string, requiring type conversion for numeric values.
+
+Input validation ensures data meets requirements. Try-except blocks handle invalid input gracefully.
+
+Command-line arguments use sys.argv list. The argparse module provides sophisticated command-line argument parsing.
+
+Secure input handling prevents buffer overflows and injection attacks. Input length limits and character filtering enhance security.
+
+Multiple input methods include raw_input() in Python 2 and input() in Python 3. Getpass module enables secure password input.
+
+GUI input using libraries like tkinter provides user-friendly interfaces for data entry.

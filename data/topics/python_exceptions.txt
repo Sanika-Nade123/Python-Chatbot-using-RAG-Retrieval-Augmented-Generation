@@ -1,0 +1,11 @@
+Exception handling in Python uses try-except blocks to manage runtime errors gracefully. The try block contains code that might raise exceptions.
+
+Multiple except blocks can handle different types of exceptions. The else block executes if no exception occurs, and finally always executes.
+
+Custom exceptions can be created by inheriting from built-in Exception class. They help create meaningful error messages specific to your application.
+
+The raise statement manually triggers exceptions. It's useful for enforcing conditions or indicating error states in your code.
+
+Context managers (with statement) automatically handle resource cleanup, commonly used with files, network connections, and database operations.
+
+Best practices include catching specific exceptions rather than using bare except, and avoiding catching all exceptions unless absolutely necessary.

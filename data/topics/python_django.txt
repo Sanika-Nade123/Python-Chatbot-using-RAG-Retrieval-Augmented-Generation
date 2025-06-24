@@ -1,0 +1,11 @@
+Django is a high-level Python web framework that follows the MVT (Model-View-Template) pattern. It emphasizes rapid development and clean, pragmatic design.
+
+Models define database structure using Python classes. Django's ORM handles database operations, supporting multiple database backends.
+
+Views handle request processing and return responses. Class-based views provide reusable, extensible ways to handle common web development patterns.
+
+Templates manage presentation using Django's template language. Template inheritance and filters provide powerful ways to structure and manipulate content.
+
+URL routing maps URLs to views using regular expressions or path converters. URL patterns can include parameters for dynamic routing.
+
+Django's admin interface automatically generates an admin panel based on models, providing a ready-to-use interface for data management.

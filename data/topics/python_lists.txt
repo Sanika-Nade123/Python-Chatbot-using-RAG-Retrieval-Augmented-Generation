@@ -1,0 +1,11 @@
+Lists are ordered, mutable sequences in Python. They can contain elements of different types, including other lists, and are created using square brackets [].
+
+Common list methods include append(), extend(), insert(), remove(), pop(), clear(), and sort(). These methods modify the list in place.
+
+List slicing works similar to string slicing, allowing you to extract portions of lists using [start:end:step] notation.
+
+List comprehensions provide a concise way to create lists based on existing lists. They can include conditions and nested loops.
+
+Lists can be copied using slice notation [:], list() function, or copy() method. For nested lists, deepcopy() ensures a complete independent copy.
+
+Python lists are implemented as dynamic arrays, providing efficient random access and append operations.

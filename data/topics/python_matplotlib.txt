@@ -1,0 +1,11 @@
+Matplotlib is Python's primary plotting library. It creates publication-quality figures in various formats and provides both object-oriented and MATLAB-style interfaces.
+
+Basic plots include line plots, scatter plots, bar charts, and histograms. The pyplot interface provides a simple way to create common plots quickly.
+
+Customization options include colors, styles, labels, titles, and legends. Multiple subplots can be created using subplot() or add_subplot().
+
+3D plotting capabilities allow creation of surface plots, wireframes, and scatter plots in three dimensions using the mplot3d toolkit.
+
+Animation features enable creation of dynamic visualizations. Both frame-by-frame animation and real-time updates are supported.
+
+Matplotlib integrates well with NumPy and Pandas, making it easy to visualize data from these libraries directly.

@@ -1,0 +1,11 @@
+Python testing frameworks include unittest, pytest, and doctest. Unit tests verify individual components work correctly.
+
+Test fixtures provide setup and cleanup for tests. Pytest's fixture system is particularly powerful and flexible.
+
+Mocking replaces real objects with test doubles. The unittest.mock module provides tools for creating mock objects.
+
+Test coverage measures code execution during tests. Tools like coverage.py generate reports showing untested code.
+
+Integration tests verify component interactions. End-to-end tests check complete system functionality.
+
+Test-driven development (TDD) writes tests before implementation. This ensures code meets requirements and remains maintainable.

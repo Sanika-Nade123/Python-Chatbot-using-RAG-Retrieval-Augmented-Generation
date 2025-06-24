@@ -1,0 +1,11 @@
+Variables in Python are containers for storing data values. Unlike other languages, Python variables don't need explicit type declaration and can change types dynamically.
+
+Variable names must start with a letter or underscore, followed by letters, numbers, or underscores. They are case-sensitive, so 'name' and 'Name' are different variables.
+
+Python supports multiple assignment, allowing you to assign values to multiple variables in a single line. For example: x, y, z = 1, 2, 3.
+
+Global variables are declared outside functions and can be used throughout the program. Local variables are declared within functions and have function scope.
+
+Python uses dynamic typing, meaning you can reassign variables to different data types. The type() function helps determine a variable's current type.
+
+Variable naming conventions follow PEP 8 style guide: lowercase with underscores for regular variables, UPPERCASE for constants, and CamelCase for classes.

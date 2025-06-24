@@ -1,0 +1,11 @@
+Python's built-in functions provide essential functionality. Functions like len(), type(), and print() are always available.
+
+String methods manipulate text data. Common methods include split(), join(), replace(), and format().
+
+List methods modify sequences. Methods like append(), extend(), insert() change list contents.
+
+Dictionary methods handle key-value pairs. update(), get(), keys() manage dictionary operations.
+
+Set methods perform set operations. add(), remove(), union() implement mathematical set concepts.
+
+File methods handle I/O operations. read(), write(), close() manage file interactions.

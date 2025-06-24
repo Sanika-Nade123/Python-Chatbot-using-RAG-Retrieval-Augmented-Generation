@@ -1,0 +1,11 @@
+DateTime handling in Python uses the datetime module. It provides classes for working with dates, times, and time intervals.
+
+The datetime class combines date and time information. Common operations include formatting, arithmetic, and timezone conversions.
+
+Timedelta objects represent time differences. They're useful for date arithmetic and calculating time intervals between dates.
+
+Timezone handling uses the pytz library. It provides accurate timezone databases and conversion utilities for international applications.
+
+String parsing and formatting use strftime() and strptime() methods. Format codes like %Y, %m, %d specify how dates should be represented.
+
+Time operations include current time retrieval, timestamp conversion, and calendar calculations using the calendar module.

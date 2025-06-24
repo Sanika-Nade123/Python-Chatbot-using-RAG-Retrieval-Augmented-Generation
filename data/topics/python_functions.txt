@@ -1,0 +1,11 @@
+Functions in Python are blocks of reusable code that perform specific tasks. They are defined using the 'def' keyword, followed by the function name and parameters.
+
+Python functions can return multiple values as tuples. The return statement exits the function and optionally passes back a value to the caller.
+
+Parameters can have default values, making them optional when calling the function. Python also supports keyword arguments, allowing parameters to be passed in any order.
+
+Lambda functions are small, anonymous functions defined using the 'lambda' keyword. They can have any number of arguments but only one expression.
+
+Function decorators modify the behavior of functions or classes. They are a powerful way to add functionality to existing code without directly modifying it.
+
+Python supports recursive functions, which call themselves. They're useful for tasks like traversing tree structures or calculating factorials.
