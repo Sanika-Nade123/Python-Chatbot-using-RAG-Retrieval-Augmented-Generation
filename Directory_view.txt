@@ -1,0 +1,18 @@
+c:\Users\hp\Desktop\Kaam Dhaam\chatbot 2\
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+├── templates/
+│   ├── login.html
+│   ├── register.html
+│   ├── admin.html
+│   ├── about.html
+│   ├── chat.html
+│   ├── chat_history.html
+│   └── base.html
+├── database.py
+├── app.py
+├── chat_utils.py
+└── requirements.txt
